@@ -1,0 +1,24 @@
+{
+  "author": "Constructor",
+  "classifications": [ "Web" ], 
+  "name": "Aurelia dotnet starter",
+  "identity": "AuNet",         
+  "shortName": "au-net",
+  "tags": {
+    "language": "C#"
+  },
+  "sourceName": "AuTemp",
+  "preferNameDirectory":"true",
+  "symbols":{
+    "ownerName": {
+      "type": "parameter",
+      "defaultValue": "Constructor",
+      "replaces":"{ownerName}"
+    },
+    "title": {
+      "type": "parameter",
+      "defaultValue": "Hello World!",
+      "replaces":"{title}"
+    }
+  }
+}
